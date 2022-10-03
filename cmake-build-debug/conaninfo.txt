@@ -1,0 +1,41 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=9
+    os=Linux
+
+[requires]
+    libpng/1.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=9
+    os=Linux
+    os_build=Linux
+
+[full_requires]
+    libpng/1.6.38:7929d8ecf29c60d74fd3c1f6cb78bbb3cb49c0c7
+    zlib/1.2.12:6af9cc7cb931c5ad942174fd7838eb655717c709
+
+[full_options]
+    libpng:api_prefix=
+    libpng:fPIC=True
+    libpng:shared=False
+    libpng:sse=True
+    zlib:fPIC=True
+    zlib:shared=False
+
+[recipe_hash]
+
+
+[env]
+

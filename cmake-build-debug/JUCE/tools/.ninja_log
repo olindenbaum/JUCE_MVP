@@ -1,0 +1,5 @@
+# ninja log v5
+3	404	0	/cygdrive/c/Users/Oscar/Documents/Projects/fyp/JUCE_Tempometer/cmake-build-debug/JUCE/tools/CMakeFiles/cmake.verify_globs	5bd0e4a4852f0d81
+2	306	1664646427974105100	modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/LV2/juce_LV2TurtleDumpProgram.cpp.o	cddb48454a4e0d15
+309	775	1664646428536560900	modules/juce_audio_plugin_client/juce_lv2_helper.exe	f51b3388bb2685ef
+4	367	0	/cygdrive/c/Users/Oscar/Documents/Projects/fyp/JUCE_Tempometer/cmake-build-debug/JUCE/tools/CMakeFiles/cmake.verify_globs	5bd0e4a4852f0d81

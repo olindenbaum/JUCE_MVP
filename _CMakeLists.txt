@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.0)
+project(JUCE_Tempometer)
+
+set(CMAKE_CXX_STANDARD 98)
+
+add_subdirectory(${CMAKE_SOURCE_DIR}/libs)
+add_subdirectory(${CMAKE_SOURCE_DIR}/JuceLibraryCode)
+
+add_executable(JUCE_Tempometer PluginProcessor.cpp)

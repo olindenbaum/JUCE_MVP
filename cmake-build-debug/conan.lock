@@ -1,0 +1,34 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "libpng:api_prefix=\nlibpng:fPIC=True\nlibpng:shared=False\nlibpng:sse=True\nzlib:fPIC=True\nzlib:shared=False",
+    "requires": [
+     "1"
+    ],
+    "path": "../conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "libpng/1.6.38",
+    "options": "api_prefix=\nfPIC=True\nshared=False\nsse=True\nzlib:fPIC=True\nzlib:shared=False",
+    "package_id": "7929d8ecf29c60d74fd3c1f6cb78bbb3cb49c0c7",
+    "prev": "0",
+    "requires": [
+     "2"
+    ],
+    "context": "host"
+   },
+   "2": {
+    "ref": "zlib/1.2.12",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "6af9cc7cb931c5ad942174fd7838eb655717c709",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=9\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n"
+}

@@ -1,0 +1,41 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export PKG_CONFIG_PATH='C:\Users\Oscar\Documents\Projects\fyp\JUCE_Tempometer\libs\kissfft\cmake-build-debug' && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/Oscar/Documents/Projects/fyp/JUCE_Tempometer/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/Users/Oscar/Documents/Projects/fyp/JUCE_Tempometer -B /mnt/c/Users/Oscar/Documents/Projects/fyp/JUCE_Tempometer/cmake-build-debug"
+-- Conan: Adjusting output directories
+-- Conan: Using cmake global configuration
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- Current conanbuildinfo.cmake directory: /mnt/c/Users/Oscar/Documents/Projects/fyp/JUCE_Tempometer/cmake-build-debug
+-- Conan: Compiler GCC>=5, checking major version 9
+-- Conan: Checking correct version: 9
+-- Building KissFFT with datatype: float
+-- Building shared library
+-- PKGINCLUDEDIR is include/kissfft
+-- Checking for module 'alsa'
+--   
+-- Checking for module 'freetype2'
+--   
+-- Checking for module 'libcurl'
+--   
+-- Checking for modules 'webkit2gtk-4.0;gtk+-x11-3.0'
+--   
+--   
+-- Configuring juceaide
+CMake Error at JUCE/extras/Build/juceaide/CMakeLists.txt:90 (message):
+  Failed to configure juceaide
+
+  CMake Error: The current CMakeCache.txt directory
+  /mnt/c/Users/Oscar/Documents/Projects/fyp/JUCE_Tempometer/cmake-build-debug/JUCE/tools/CMakeCache.txt
+  is different than the directory
+  /cygdrive/c/Users/Oscar/Documents/Projects/fyp/JUCE_Tempometer/cmake-build-debug/JUCE/tools
+  where CMakeCache.txt was created.  This may result in binaries being
+  created in the wrong place.  If you are not sure, reedit the CMakeCache.txt
+
+  CMake Error: The source
+  "/mnt/c/Users/Oscar/Documents/Projects/fyp/JUCE_Tempometer/JUCE/CMakeLists.txt"
+  does not match the source
+  "/cygdrive/c/Users/Oscar/Documents/Projects/fyp/JUCE_Tempometer/JUCE/CMakeLists.txt"
+  used to generate cache.  Re-run cmake with a different source directory.
+
+
+
+-- Configuring incomplete, errors occurred!
+See also "/mnt/c/Users/Oscar/Documents/Projects/fyp/JUCE_Tempometer/cmake-build-debug/CMakeFiles/CMakeOutput.log".
